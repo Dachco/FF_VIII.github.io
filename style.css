@@ -155,3 +155,31 @@ header h1{
 .card:hover .back{
     transform: perspective(600px) rotateY(360deg);
 }
+
+@media screen and (max-width: 500px) {
+    .card {
+        position: relative;
+        width: 400px;
+        height: 450px;
+        margin: 20px;
+    }
+
+    .card .front .estadisticas_flex{
+        font-size: 15px;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        padding: 5px;
+        margin: 50px;
+        text-align: center;
+        background-color: rgba(245, 245, 245, 0.5);
+        border-top:  solid 1px rgb(12, 96, 175);
+        line-height: 15px;
+    }
+    header p{
+        width: 100%;
+        border: none;
+        font-size: 20px;
+    }
+
+}
