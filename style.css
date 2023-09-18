@@ -156,7 +156,7 @@ header h1{
     transform: perspective(600px) rotateY(360deg);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .card {
         position: relative;
         width: 400px;

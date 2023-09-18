@@ -4,7 +4,7 @@
     "GFs": [
     {
     "Nombre": "Ifrit",
-    "Img": "/img/ifrit.png",
+    "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-ymHJptxIrrnrJmFvej1GtZbqJQgxgTf3AQPGPCXM22Nsa6argf8mpx_j9FR0GhrcfFKajCf2MtS_IXt1eEyP9AOvSrCw=s1600",
     "Link": "https://finalfantasy.fandom.com/wiki/Ifrit_(Final_Fantasy_VIII)",
     "Descripcion": "Llamas del infierno: ataque de daño elemental de fuego contra todos los enemigos",
     "Habilidades": [
@@ -31,7 +31,7 @@
     },
     {
     "Nombre": "Shiva",
-    "Img": "/img/Shiva.png",
+    "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-wfGh0n6G5k7EBf5dqUaTzBLMBaNDH_RCNKhp6X1OSBiihgYY2RVjjxz-dpa8nr5XJj1UFzenBntyQBUixrCOvvJJ3upw=s2560",
     "Descripcion": "Polvo de diamantes: daño superior de hielo contra todos los objetivos",
     "Link": "https://finalfantasy.fandom.com/wiki/Shiva_(Final_Fantasy_VIII)",
     "Habilidades": [
@@ -57,7 +57,7 @@
     },
     {
         "Nombre": "Quetzal",
-        "Img": "/img/Quezacotl.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-zRrO8_uJYaD3i3r7PZDhJCZnnXq_epB1XhKF8TxfwUOLcvDATnU-K1-Y07otZ1BmMsen_AhYqLfG7tSuPeJqEEmJsW_A=s2560",
         "Descripcion": "Tormenta eléctrica: lanza un poderoso ataque de elemento Rayo contra todos los objetivos",
         "Link": "https://finalfantasy.fandom.com/wiki/Quezacotl_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -84,7 +84,7 @@
     },
     {
         "Nombre": "Diablo",
-        "Img": "/img/Diablos.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-yCJlQGrHwwg06dD5cTrJtx0RZwVkpyat_qzkmfOgft38xXsLCvezdv6MRiU6kqjCc8vWigk2TLBFo85XhAAFK1H62PYg=s1600",
         "Descripcion": "Emisario de la noche: causa daño no elemental a todos los enemigos. El daño que causa depende de la VIT del enemigo",
         "Link": "https://finalfantasy.fandom.com/wiki/Diablos_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -111,7 +111,7 @@
     },
     {
         "Nombre": "Sirena",
-        "Img": "/img/Siren.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-xrTjzPmFz9wgXcOj3NrDgxBBf46B1UcqQO-qRxCQAUN70i7_6nEkqHX8pKUfn4uD0ovagwZgzuF-xTjUUFauNHp7AFpg=s2560",
         "Descripcion": "Canto mesmerizante: lanza un ataque no elemental contra todos los enemigos. Puede provocar Mudez",
         "Link": "https://finalfantasy.fandom.com/wiki/Siren_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -138,7 +138,7 @@
     },
     {
         "Nombre": "Brothers",
-        "Img": "/img/Brothers.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-wiGqBRPsqDW16Q-15z4Th670hoWM5XQPBQy3RlHbMY-y8Rt9yZ9-cd2xaA-nsK-YE2-ecOdeOOR4YuQDnX3pLsZjMYvQ=s2560",
         "Descripcion": "Amor fraternal: ataque de elemento tierra contra todos los enemigos",
         "Link": "https://finalfantasy.fandom.com/wiki/Brothers_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -164,7 +164,7 @@
     },
     {
         "Nombre": "Leviatán",
-        "Img": "/img/Leviathan.jpg",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-zuLX2i4f_-LVGv7j66m8t6FNXcBk5XZtCD_QlyUbVM-FE849XR6TPYL0zCGJTYAXIkNtBGwc31L6PHLosKW4DUXjAB=s2560",
         "Descripcion": "Rugido oceánico: poderoso ataque de agua contra todos los enemigos",
         "Link": "https://finalfantasy.fandom.com/wiki/Leviathan_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -191,7 +191,7 @@
     },
     {
         "Nombre": "Odín",
-        "Img": "/img/Odin.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-zfR2epqP7od1FN4sMs0dbznMcWsM7kgvhA5Q3HzHFyIR4R49i6iYlqUSEz25VxDYBGP9R0IqLVFavwNwYUul8D4FdYYQ=s1600",
         "Descripcion": "Sable Justiciero: acaba al instante con todos los enemigos",
         "Link": "https://finalfantasy.fandom.com/wiki/Odin_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -217,7 +217,7 @@
     },
     {
         "Nombre": "Bahamut",
-        "Img": "/img/Bahamut.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-yWoRMHhZ3FlsLIMq-cdcTLZpunIQ0N5U0hii4RRGQY6CcI5KJTmadAGoQFGr27coNQKzdK4BPZgCTemfaQyyCRoY7z=s2560",
         "Descripcion": "Fuego flameo: El poderoso dragón supremo ataque con virtud",
         "Link": "https://finalfantasy.fandom.com/wiki/Bahamut_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -245,7 +245,7 @@
     },
     {
         "Nombre": "Alexander",
-        "Img": "/img/Alexander.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-y-TwE64RjnwcYLko6Ss1ksvIw5dXGcS1w_jYAfkbAWDdmTqifJtEjCUtSoIFSg1NqzEnK_dFQ51t-HAdLeTHnKKQuu=s2560",
         "Descripcion": "Muro: La fortaleza divina proeteje de todo",
         "Link": "https://finalfantasy.fandom.com/wiki/Alexander_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -271,7 +271,7 @@
         ]
     },{
         "Nombre": "Cactilio", 
-        "Img": "/img/Cactuar.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-yW1IxWJP-dpBm1aNFLdh1pUXDTgXVDgPncD-zN0XfJflhhFqkY5A2OyAD8CQCF1h7XcpDCFTj25BgC0HL2yIQD2sA-dQ=s1600",
         "Descripcion": "Flameante: El esquivo espíritu del desierto",
         "Link": "https://finalfantasy.fandom.com/wiki/Cactuar_(Final_Fantasy_VIII_summon)",
         "Habilidades": [
@@ -297,7 +297,7 @@
         ]
     },{
         "Nombre": "Tomberi",
-        "Img": "/img/Tonberry.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-xOREoEAkhRxBiofZKvVcXzLnxusEGExo1q4nq8etB0GL_Qzcwks9IAb8K0pINZKmbaJplASGJ6oRb_WFkTywTSGZuhLA=s2560",
         "Descripcion": "Asesino: El vengativo espíritu con una daga",
         "Link": "https://finalfantasy.fandom.com/wiki/Tonberry_(Final_Fantasy_VIII_summon)",
         "Habilidades": [
@@ -325,7 +325,7 @@
     },
     {
         "Nombre": "Cerbero",
-        "Img": "/img/Cerberus.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-wwa_JoCR6NhM07zxs0mCJpoFeGr1VDB5IX7HBhYh3HceIy8j7RBYKUALu7YL_kdpqEsUBLrDD4FV5-0Kfj0d7Al-64Cw=s1600",
         "Descripcion": "Rugido: El feroz guardián de la entrada al infierno desmaya a todos los enemigos",
         "Link": "https://finalfantasy.fandom.com/wiki/Cerberus_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -352,7 +352,7 @@
     },
     {
         "Nombre": "Fénix",
-        "Img": "/img/Phoenix.jpg",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-xwUt1ibEWXPqeglMYfFvOYISQxqun6hm6RMGCOIZv58fVeBBFbFDpVvXlL7W2UyWYYZvHEWuAFxV0rtAkXQ3j9_ywr=s2560",
         "Descripcion": "Llamas de vida: lanza un ataque de fuego contra todos los enemigos, resucita a los personajes muertos",
         "Link": "https://finalfantasy.fandom.com/wiki/Phoenix_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -377,7 +377,7 @@
         ]
     },{
         "Nombre": "Gilgamesh",
-        "Img": "/img/Gilgamesh.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-zHrENbtsPTFp4ACNqq6rTKIGk6godV6AN3QfBjRYup9XevebyTNqxzEaNKScAnBEcV1kFkPGP7H9ScPKlgcDelzUPsLw=s2560",
         "Descripcion": "Espada interdimensional: Gilgamesh selecciona una de sus cuatro espadas al azar. Cada una tiene un efecto diferente. Masamune hace un gran daño físico",
         "Link": "https://finalfantasy.fandom.com/wiki/Gilgamesh_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -402,7 +402,7 @@
         ]
     },{
         "Nombre": "Edén",
-        "Img": "/img/Eden.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-z4GCba_nhzmKxIVH0FGuwsBRen6Dy8CAV7v-DS8cyHyDGcrXVJQOjry95wafhxvZXSQfylp3BNIj8JIM9mBw4hxX2G=s2560",
         "Descripcion": "Extremaunción: causa daño no elemental muy elevado a todos los enemigos. Puede hacer más de 9.999 puntos de daño",
         "Link": "https://finalfantasy.fandom.com/wiki/Eden_(summon)",
         "Habilidades": [
@@ -429,7 +429,7 @@
     },
     {
         "Nombre": "Rubí",
-        "Img": "/img/Carbuncle.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-yVeMcqGc01yF_qpRxS_7AEU_Gna8ygrP-SSzI93dfwycFoEXV12MdzqGijuRAKHHows9aZOcoer6QIIhWd0Sh8-pBL0Q=s2560",
         "Descripcion": "Resplandor de rubí: lanza Espejo sobre todos los personajes",
         "Link": "https://finalfantasy.fandom.com/wiki/Carbuncle_(Final_Fantasy_VIII)",
         "Habilidades": [
@@ -455,7 +455,7 @@
         ]
     },{
         "Nombre": "Eolo",
-        "Img": "/img/Pandemona.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-y31FY9HHd-TtL_CdwYwlfAV9hJb--S57ElXKKdMvxauPNmgVWA489EogLHNyu8I2QcWZqlU7561got0YlEla7DZAU=s2560",
         "Descripcion": "Viento circundante: El maestro de los vientos y la tempestad te aleja del combate",
         "Link": "https://finalfantasy.fandom.com/wiki/Pandemona",
         "Habilidades": [
@@ -481,7 +481,7 @@
     },
     {
         "Nombre": "Helltrain",
-        "Img": "/img/Doomtrain.png",
+        "Img": "https://lh3.googleusercontent.com/drive-viewer/AITFw-zFa_p3oWXahZ77G33tykd-TeoReN1KF4p8Vs34Ys0O1OirmwX1gK-e-8x0Da9Mm69xouCiUHBbflVW7XBy4a5yaX38IQ=s2560",
         "Descripcion": "Camino mortal: El ferrocarril de la oscuridad y el caos aturde",
         "Link": "https://finalfantasy.fandom.com/wiki/Doomtrain_(Final_Fantasy_VIII)",
         "Habilidades": [
