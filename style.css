@@ -83,6 +83,10 @@ header h1{
     border-top:  solid 1px rgb(12, 96, 175);
     line-height: 15px;
 }
+.card .front .estadisticas_flex .separacion{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .card .front .imgsize{
     padding-top: 50px;
@@ -156,7 +160,7 @@ header h1{
     transform: perspective(600px) rotateY(360deg);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .card {
         position: relative;
         width: 400px;

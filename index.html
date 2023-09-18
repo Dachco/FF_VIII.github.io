@@ -86,12 +86,15 @@
             imagen.src = gf.Img;
             imgsize.appendChild(imagen);
                 ataque.textContent = `Ataque ${gf.Estadisticas.Ataque}`;
+                ataque.classList.add('separacion');
                 estadisticas_b.appendChild(ataque);
                 defensa.textContent = `Defensa ${gf.Estadisticas.Defensa}`;
+                defensa.classList.add('separacion');
                 estadisticas_b.appendChild(defensa);
                 hp.textContent = `Hp ${gf.Estadisticas.HP}`;
+                defensa.classList.add('separacion');
                 estadisticas_b.appendChild(hp);
-                magia.textContent = `Magia ${gf.Estadisticas.Magia}`;
+                magia.textContent = ` Magia ${gf.Estadisticas.Magia} `;
                 estadisticas_b.appendChild(magia);
 
             front.appendChild(nombre);
