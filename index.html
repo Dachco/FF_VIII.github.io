@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+
+    <title>Guardian Forces FF-VIII</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+</header>
+
+
+<script>
+
+    async function FFVIII() {
+
+    const requestURL = 'gf-fviii.json';
+    const request = new Request(requestURL);
+
+    const response = await fetch(request);
+    const gf_ff8 = await response.text();
+
+    const gf = JSON.parse(gf_ff8);
+    FF_header(gf)
+    FF_cards(gf);
+    }
+    function FF_header(obj){
+        const header = document.querySelector('header');
+        const titulo = document.createElement('h1');
+        titulo.textContent = obj.ff_game;
+        header.appendChild(titulo);
+
+        const paraHeader = document.createElement('p');
+        paraHeader.textContent = obj.guia_gf;
+        paraHeader.classList.add('parrafo_encabezado');
+        header.appendChild(paraHeader);
+    }
+
+    function FF_cards(obj){
+
+        const div = document.querySelector('body');
+        const gfs = obj.GFs; 
+
+        for (const gf of gfs) {
+
+            const card = document.createElement('div');
+            card.classList.add('card');
+
+            const front = document.createElement('div');
+            front.classList.add('face', 'front');
+
+            const back = document.createElement('div');
+            back.classList.add('face', 'back');
+          
+            const link_b = document.createElement('div');
+            link_b.classList.add('link');
+
+            const imgsize = document.createElement('div');
+            imgsize.classList.add('imgsize');
+
+            const estadisticas_b = document.createElement('div');
+            estadisticas_b.classList.add('estadisticas_flex');
+
+            const atributos = document.createElement('div');
+            atributos.classList.add('atributos');
+
+
+            // parte fonrt de la tarjeta
+            const nombre = document.createElement('h1');
+            const imagen = document.createElement('img');
+
+            const estadisticas = document.createElement('p');
+                const ataque = document.createElement('p');
+                const defensa = document.createElement('p');
+                const hp = document.createElement('p');
+                const magia = document.createElement('p');
+
+        
+            nombre.textContent = gf.Nombre;
+            imagen.src = gf.Img;
+            imgsize.appendChild(imagen);
+                ataque.textContent = `Ataque ${gf.Estadisticas.Ataque}`;
+                estadisticas_b.appendChild(ataque);
+                defensa.textContent = `Defensa ${gf.Estadisticas.Defensa}`;
+                estadisticas_b.appendChild(defensa);
+                hp.textContent = `Hp ${gf.Estadisticas.HP}`;
+                estadisticas_b.appendChild(hp);
+                magia.textContent = `Magia ${gf.Estadisticas.Magia}`;
+                estadisticas_b.appendChild(magia);
+
+            front.appendChild(nombre);
+            front.appendChild(imgsize);
+            front.appendChild(estadisticas);
+            front.appendChild(estadisticas_b);
+
+            //parte back de la tarjeta
+            const descripcion = document.createElement('p');
+            const habilidades_title = document.createElement('ul');
+            const habilidades_list = document.createElement('p');
+            const obtencion = document.createElement('p');
+            const link = document.createElement('a');
+            const fortalezas_title = document.createElement('ul');
+            const fortalezas_list = document.createElement('p');
+            const debilidades_title = document.createElement('ul');
+            debilidades_title.classList.add('debilidades');
+            const debilidades_list = document.createElement('p');
+            debilidades_list.classList.add('debilidades');
+            
+            descripcion.textContent = gf.Descripcion;
+            habilidades_title.textContent = 'Habilidades ';
+            
+            const habilidades = gf.Habilidades;
+            for (const habilidad of habilidades) {
+                const listItem = document.createElement('li');
+                listItem.textContent = habilidad;
+                habilidades_list.appendChild(listItem);
+            }
+            obtencion.textContent = `Obtencion: ${gf.Obtencion}`;
+
+            fortalezas_title.textContent = 'Fortalezas';
+            atributos.appendChild(fortalezas_title);
+            const fortalezas = gf.Fortalezas;
+            for (const fortaleza of fortalezas) {
+                const listItem = document.createElement('li');
+                listItem.textContent = fortaleza;
+                fortalezas_list.appendChild(listItem);
+            }
+
+            debilidades_title.textContent = 'Debilidades';
+            atributos.appendChild(debilidades_title);
+            const debilidades = gf.Debilidades;
+            for (const debilidad of debilidades) {
+                const listItem = document.createElement('li');
+                listItem.textContent = debilidad;
+                debilidades_list.appendChild(listItem);
+            }
+            atributos.appendChild(fortalezas_list);
+            atributos.appendChild(debilidades_list);
+
+            link.textContent = "Más información";
+                link.href = gf.Link;
+                link.target = "_blank";
+                link_b.appendChild(link);
+
+
+            back.appendChild(descripcion);
+            back.appendChild(habilidades_title);
+            back.appendChild(habilidades_list);
+            back.appendChild(obtencion);
+            back.appendChild(atributos);
+            back.appendChild(link_b);
+
+            //Cargar front back y a la tarjeta
+            card.appendChild(front);
+            card.appendChild(back);
+            div.appendChild(card);
+        }
+    }
+
+
+    FFVIII();
+</script>
+
+</body>
+
+</html>

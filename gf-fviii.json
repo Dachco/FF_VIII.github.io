@@ -1,0 +1,510 @@
+{
+    "ff_game" : "Final Fantasy VIII GF",
+    "guia_gf" : "¡Descubre el poder oculto del mundo de FFVIII! A continuación, te presentamos las tarjetas de cada Guardian Force, las místicas entidades que desempeñan un papel fundamental en la aventura de nuestros héroes. Explora sus habilidades, orígenes y la influencia que ejercen en los destinos de los personajes mientras te sumerges en este emocionante viaje por el universo de Final Fantasy VIII.",
+    "GFs": [
+    {
+    "Nombre": "Ifrit",
+    "Img": "/img/ifrit.png",
+    "Link": "https://finalfantasy.fandom.com/wiki/Ifrit_(Final_Fantasy_VIII)",
+    "Descripcion": "Llamas del infierno: ataque de daño elemental de fuego contra todos los enemigos",
+    "Habilidades": [
+        "Municiones: permite crear balas a partir de objetos. Es imprescindible para crear Balas iónicas, necesarias para conseguir la Lionheart de Squall",
+        "Magia ELM Fuego: permite crear magias de fuego"
+    ],
+    "Estadisticas": {
+        "Ataque": 120,
+        "Defensa": 80,
+        "HP": 1000,
+        "Magia": 100
+    },
+    "Obtencion": "Al derrotarlo al final de la Caverna de las llamas",
+    "Fortalezas": [
+        "Fuego",
+        "Ataques físicos",
+        "Magia de fuego"
+    ],
+    "Debilidades": [
+        "Hielo",
+        "Agua",
+        "Magia de agua"
+    ]
+    },
+    {
+    "Nombre": "Shiva",
+    "Img": "/img/Shiva.png",
+    "Descripcion": "Polvo de diamantes: daño superior de hielo contra todos los objetivos",
+    "Link": "https://finalfantasy.fandom.com/wiki/Shiva_(Final_Fantasy_VIII)",
+    "Habilidades": [
+        "Magia ELM Frío: permite crear magias de elemento Hielo"
+    ],
+    "Estadisticas": {
+        "Ataque": 100,
+        "Defensa": 70,
+        "HP": 800,
+        "Magia": 120
+    },
+    "Obtencion": "Al principio del juego, seleccionando 'Guia' en el pupitre de Squall",
+    "Fortalezas": [
+        "Hielo",
+        "Ataques de hielo",
+        "Magia de hielo"
+    ],
+    "Debilidades": [
+        "Fuego",
+        "Ataques físicos",
+        "Magia de fuego"
+    ]
+    },
+    {
+        "Nombre": "Quetzal",
+        "Img": "/img/Quezacotl.png",
+        "Descripcion": "Tormenta eléctrica: lanza un poderoso ataque de elemento Rayo contra todos los objetivos",
+        "Link": "https://finalfantasy.fandom.com/wiki/Quezacotl_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Carta: permite convertir en carta a un enemigo cuando le queda poca vida",
+            "Convertir cartas: se desbloquea después de conseguir Carta."
+        ],
+        "Estadisticas": {
+            "Ataque": 115,
+            "Defensa": 75,
+            "HP": 1000,
+            "Magia": 110
+        },
+        "Obtencion": "Al principio del juego, seleccionando 'Guía' en el pupitre de Squall",
+        "Fortalezas": [
+            "Trueno",
+            "Ataques eléctricos",
+            "Magia de trueno"
+        ],
+        "Debilidades": [
+            "Agua",
+            "Ataques físicos",
+            "Magia de agua"
+        ]
+    },
+    {
+        "Nombre": "Diablo",
+        "Img": "/img/Diablos.png",
+        "Descripcion": "Emisario de la noche: causa daño no elemental a todos los enemigos. El daño que causa depende de la VIT del enemigo",
+        "Link": "https://finalfantasy.fandom.com/wiki/Diablos_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Mitad encuentros: reduce a la mitad el número de encuentros aleatorios",
+            "Ningún encuentro: elimina los encuentros aleatorios"
+        ],
+        "Estadisticas": {
+            "Ataque": 130,
+            "Defensa": 90,
+            "HP": 1200,
+            "Magia": 100
+        },
+        "Obtencion": "Tienes que conseguir la Lámpara mágica, usarla desde el inventario y derrotar a Diablo",
+        "Fortalezas": [
+            "Oscuridad",
+            "Ataques de gravedad",
+            "Magia oscura"
+        ],
+        "Debilidades": [
+            "Luz",
+            "Ataques físicos",
+            "Magia de luz"
+        ]
+    },
+    {
+        "Nombre": "Sirena",
+        "Img": "/img/Siren.png",
+        "Descripcion": "Canto mesmerizante: lanza un ataque no elemental contra todos los enemigos. Puede provocar Mudez",
+        "Link": "https://finalfantasy.fandom.com/wiki/Siren_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Ojo observador: permite ver puntos de guardado y extracción ocultos (no permite ver los puntos de extracción en el mapa del mundo)",
+            "Magia de vida: permite crear magias de vida como Cura, Lázaro e incluso Sanctus"
+        ],
+        "Estadisticas": {
+            "Ataque": 90,
+            "Defensa": 105,
+            "HP": 800,
+            "Magia": 120
+        },
+        "Obtencion": "Se extrae de Elviore.",
+        "Fortalezas": [
+            "Agua",
+            "Ataques acuáticos",
+            "Magia de agua"
+        ],
+        "Debilidades": [
+            "Fuego",
+            "Ataques físicos",
+            "Magia de fuego"
+        ]
+    },
+    {
+        "Nombre": "Brothers",
+        "Img": "/img/Brothers.png",
+        "Descripcion": "Amor fraternal: ataque de elemento tierra contra todos los enemigos",
+        "Link": "https://finalfantasy.fandom.com/wiki/Brothers_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Ninguna en concreto, pero tiene varias habilidades de VIT+X% que potenciarán la VIT máxima de tus personajes"
+        ],
+        "Estadisticas": {
+            "Ataque": 140,
+            "Defensa": 100,
+            "HP": 1500,
+            "Magia": 80
+        },
+        "Obtencion": "Superando La tumba del Rey sin Nombre",
+        "Fortalezas": [
+            "Tierra",
+            "Ataques físicos",
+            "Magia de tierra"
+        ],
+        "Debilidades": [
+            "Viento",
+            "Ataques mágicos",
+            "Magia de viento"
+        ]
+    },
+    {
+        "Nombre": "Leviatán",
+        "Img": "/img/Leviathan.jpg",
+        "Descripcion": "Rugido oceánico: poderoso ataque de agua contra todos los enemigos",
+        "Link": "https://finalfantasy.fandom.com/wiki/Leviathan_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Magia de apoyo: permite crear magias de apoyo a partir de objetos, como Escudo, Coraza o Aura",
+            "Remedios GF: no es especialmente útil, pero permite crear objetos como Poción GF y demás"
+        ],
+        "Estadisticas": {
+            "Ataque": 120,
+            "Defensa": 90,
+            "HP": 1400,
+            "Magia": 110
+        },
+        "Obtencion": "Extrayéndolo de Norg",
+        "Fortalezas": [
+            "Agua",
+            "Ataques acuáticos",
+            "Magia de agua"
+        ],
+        "Debilidades": [
+            "Electricidad",
+            "Ataques físicos",
+            "Magia electrica"
+        ]
+    },
+    {
+        "Nombre": "Odín",
+        "Img": "/img/Odin.png",
+        "Descripcion": "Sable Justiciero: acaba al instante con todos los enemigos",
+        "Link": "https://finalfantasy.fandom.com/wiki/Odin_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Invencibilidad"
+        ],
+        "Estadisticas": {
+            "Ataque": 150,
+            "Defensa": 80,
+            "HP": 1200,
+            "Magia": 90
+        },
+        "Obtencion": "Odín no se consigue para usarlo cuando quieras, no se puede enlazar y no tiene habilidades. Aparecerá de forma aleatoria al principio de los combates y matará a todos los enemigos. No aparece contra jefes",
+        "Fortalezas": [
+            "Físico",
+            "Ataques con espada",
+            "Magia de combate"
+        ],
+        "Debilidades": [
+            "Magia",
+            "Ataques mágicos",
+            "Magia negra"
+        ]
+    },
+    {
+        "Nombre": "Bahamut",
+        "Img": "/img/Bahamut.png",
+        "Descripcion": "Fuego flameo: El poderoso dragón supremo ataque con virtud",
+        "Link": "https://finalfantasy.fandom.com/wiki/Bahamut_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "4 habilidades: permite equipar cuatro habilidades especiales en lugar de dos",
+            "FRZ +60%: aumenta un 60% tu FRZ, viene con esta habilidad aprendida por defecto"
+            
+        ],
+        "Estadisticas": {
+            "Ataque": 160,
+            "Defensa": 100,
+            "HP": 1800,
+            "Magia": 110
+        },
+        "Obtencion": "Tienes que derrotarlo en la Isla Buque de Guerra",
+        "Fortalezas": [
+            "Fuego",
+            "Ataques de fuego",
+            "Magia de fuego"
+        ],
+        "Debilidades": [
+            "Hielo",
+            "Ataques de hielo",
+            "Magia de hielo"
+        ]
+    },
+    {
+        "Nombre": "Alexander",
+        "Img": "/img/Alexander.png",
+        "Descripcion": "Muro: La fortaleza divina proeteje de todo",
+        "Link": "https://finalfantasy.fandom.com/wiki/Alexander_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Enl. def. ELM x2 y x4: permite enlazar cuatro magias a la defensa elemental",
+            "3 Habilidades: permite equipar tres habilidades especiales en lugar de dos."
+        ],
+        "Estadisticas": {
+            "Ataque": 140,
+            "Defensa": 120,
+            "HP": 1500,
+            "Magia": 100
+        },
+        "Obtencion": "Se extrae de Edea, al final del asalto al Jardín de Galbadia",
+        "Fortalezas": [
+            "Luz",
+            "Ataques sagrados",
+            "Magia blanca"
+        ],
+        "Debilidades": [
+            "Oscuridad",
+            "Ataques oscuros",
+            "Magia negra"
+        ]
+    },{
+        "Nombre": "Cactilio", 
+        "Img": "/img/Cactuar.png",
+        "Descripcion": "Flameante: El esquivo espíritu del desierto",
+        "Link": "https://finalfantasy.fandom.com/wiki/Cactuar_(Final_Fantasy_VIII_summon)",
+        "Habilidades": [
+            "Enlace EVS: permite enlazar magias a la evasión",
+            "Enlace SUE: permite enlazar magias a la suerte"
+        ],
+        "Estadisticas": {
+            "Ataque": 100,
+            "Defensa": 60,
+            "HP": 800,
+            "Magia": 130
+        },
+        "Obtencion": "Derrotando al Cactilión",
+        "Fortalezas": [
+            "Magia",
+            "Magia de tierra",
+            "Magia de viento"
+        ],
+        "Debilidades": [
+            "Físico",
+            "Ataques físicos",
+            "Magia de fuego"
+        ]
+    },{
+        "Nombre": "Tomberi",
+        "Img": "/img/Tonberry.png",
+        "Descripcion": "Asesino: El vengativo espíritu con una daga",
+        "Link": "https://finalfantasy.fandom.com/wiki/Tonberry_(Final_Fantasy_VIII_summon)",
+        "Habilidades": [
+            "Regatear: permite comprar objetos más baratos",
+            "Vender más caro: permite vender objetos más caros"
+            
+        ],
+        "Estadisticas": {
+            "Ataque": 120,
+            "Defensa": 100,
+            "HP": 1200,
+            "Magia": 90
+        },
+        "Obtencion": "Derrotando al Rey Tomberi en las Ruinas de Centra",
+        "Fortalezas": [
+            "Oscuridad",
+            "Ataques oscuros",
+            "Magia negra"
+        ],
+        "Debilidades": [
+            "Luz",
+            "Ataques sagrados",
+            "Magia blanca"
+        ]
+    },
+    {
+        "Nombre": "Cerbero",
+        "Img": "/img/Cerberus.png",
+        "Descripcion": "Rugido: El feroz guardián de la entrada al infierno desmaya a todos los enemigos",
+        "Link": "https://finalfantasy.fandom.com/wiki/Cerberus_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Enl. def. EST x2 y x4: permite enlazar 4 magias a la defensa de estado alterado",
+            "Enlace RAP: permite enlazar magias a la rapidez"
+        ],
+        "Estadisticas": {
+            "Ataque": 140,
+            "Defensa": 80,
+            "HP": 1100,
+            "Magia": 110
+        },
+        "Obtencion": "Al derrotarlo durante el asalto al Jardín de Galbadia.",
+        "Fortalezas": [
+            "Físico",
+            "ATQ de fuego",
+            "Magia de viento"
+        ],
+        "Debilidades": [
+            "Magia",
+            "Ataques mágicos",
+            "Magia negra"
+        ]
+    },
+    {
+        "Nombre": "Fénix",
+        "Img": "/img/Phoenix.jpg",
+        "Descripcion": "Llamas de vida: lanza un ataque de fuego contra todos los enemigos, resucita a los personajes muertos",
+        "Link": "https://finalfantasy.fandom.com/wiki/Phoenix_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Resureccion"
+        ],
+        "Estadisticas": {
+            "Ataque": 110,
+            "Defensa": 80,
+            "HP": 1000,
+            "Magia": 120
+        },
+        "Obtencion": "Fénix no se consigue. La única manera de invocarlo es usando el Ala de fénix en combate, un objeto. Es un objeto bastante raro.",
+        "Fortalezas": [
+            "Fuego",
+            "Ataques de fuego",
+            "Magia de fuego"
+        ],
+        "Debilidades": [
+            "Hielo",
+            "Ataques de hielo",
+            "Magia de hielo"
+        ]
+    },{
+        "Nombre": "Gilgamesh",
+        "Img": "/img/Gilgamesh.png",
+        "Descripcion": "Espada interdimensional: Gilgamesh selecciona una de sus cuatro espadas al azar. Cada una tiene un efecto diferente. Masamune hace un gran daño físico",
+        "Link": "https://finalfantasy.fandom.com/wiki/Gilgamesh_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Resureccion"
+        ],
+        "Estadisticas": {
+            "Ataque": 150,
+            "Defensa": 90,
+            "HP": 1400,
+            "Magia": 100
+        },
+        "Obtencion": "Para poder conseguirlo, tienes que haber conseguido a Odín en las Ruinas de Centra antes del combate final con Seifer. Si cumples este requisito",
+        "Fortalezas": [
+            "Físico",
+            "Ataques con espada",
+            "Magia de combate"
+        ],
+        "Debilidades": [
+            "Magia",
+            "Ataques mágicos",
+            "Magia negra"
+        ]
+    },{
+        "Nombre": "Edén",
+        "Img": "/img/Eden.png",
+        "Descripcion": "Extremaunción: causa daño no elemental muy elevado a todos los enemigos. Puede hacer más de 9.999 puntos de daño",
+        "Link": "https://finalfantasy.fandom.com/wiki/Eden_(summon)",
+        "Habilidades": [
+            "Enlace RAP: permite enlazar magias a la rapidez",
+            "Enlace EVS: permite enlazar magias a la evasión"
+        ],
+        "Estadisticas": {
+            "Ataque": 170,
+            "Defensa": 120,
+            "HP": 2000,
+            "Magia": 130
+        },
+        "Obtencion": "Se extrae del Ente Artema en las Ruinas oceánicas",
+        "Fortalezas": [
+            "Cósmico",
+            "Ataques cósmicos",
+            "Magia cósmica"
+        ],
+        "Debilidades": [
+            "Ninguna conocida",
+            "Invulnerable",
+            "Poder supremo"
+        ]
+    },
+    {
+        "Nombre": "Rubí",
+        "Img": "/img/Carbuncle.png",
+        "Descripcion": "Resplandor de rubí: lanza Espejo sobre todos los personajes",
+        "Link": "https://finalfantasy.fandom.com/wiki/Carbuncle_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Remedios VIT: permite crear objetos curativos a partir de otros",
+            "3 Habilidades: permite equipar tres habilidades especiales en lugar de dos"
+        ],
+        "Estadisticas": {
+            "Ataque": 140,
+            "Defensa": 90,
+            "HP": 1300,
+            "Magia": 120
+        },
+        "Obtencion": "Se extrae del jefe Gárgolas.",
+        "Fortalezas": [
+            "Fuego",
+            "Ataques de fuego",
+            "Magia de fuego"
+        ],
+        "Debilidades": [
+            "Hielo",
+            "Ataques de hielo",
+            "Magia de hielo"
+        ]
+    },{
+        "Nombre": "Eolo",
+        "Img": "/img/Pandemona.png",
+        "Descripcion": "Viento circundante: El maestro de los vientos y la tempestad te aleja del combate",
+        "Link": "https://finalfantasy.fandom.com/wiki/Pandemona",
+        "Habilidades": [
+            "Iniciativa: el personaje puede usar una acción nada más empezar"
+        ],
+        "Estadisticas": {
+            "Ataque": 120,
+            "Defensa": 80,
+            "HP": 1100,
+            "Magia": 130
+        },
+        "Obtencion": "Se extrae de Viento durante el combate en Balamb",
+        "Fortalezas": [
+            "Viento",
+            "Ataques de viento",
+            "Magia de viento"
+        ],
+        "Debilidades": [
+            "Tierra",
+            "Ataques físicos",
+            "Magia de tierra"
+        ]
+    },
+    {
+        "Nombre": "Helltrain",
+        "Img": "/img/Doomtrain.png",
+        "Descripcion": "Camino mortal: El ferrocarril de la oscuridad y el caos aturde",
+        "Link": "https://finalfantasy.fandom.com/wiki/Doomtrain_(Final_Fantasy_VIII)",
+        "Habilidades": [
+            "Enl. def. ELM x4: permite enlazar 4 magias a la defensa elemental",
+            "Enl. def. EST x4: permite enlazar 4 magias a la defensa de estado"
+        ],
+        "Estadisticas": {
+            "Ataque": 160,
+            "Defensa": 100,
+            "HP": 1500,
+            "Magia": 110
+        },
+        "Obtencion": "Tienes que completar el Ritual de Helltrain",
+        "Fortalezas": [
+            "Oscuridad",
+            "Ataques oscuros",
+            "Magia negra"
+        ],
+        "Debilidades": [
+            "Luz",
+            "Ataques sagrados",
+            "Magia blanca"
+        ]
+    }
+    ]
+}

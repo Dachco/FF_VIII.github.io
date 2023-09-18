@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(92, 162, 227);
+    border: 10px solid rgba(137, 77, 205, 0.367);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+header{
+    text-align: center;
+    background-color: rgba(137, 77, 205, 0.367);
+    border: 10px solid rgb(92, 162, 227);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+header p{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    color: black;
+    font-size: 25px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 10px solid  rgb(92, 162, 227);
+}
+
+header h1{
+    font-size: 50px;
+    color:rgb(3,35,54);
+    border-bottom: 2px solid rgb(3,35,54);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px white; 
+}
+
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 10px 25px black;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.card .front .estadisticas_flex{
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-top:  solid 1px rgb(12, 96, 175);
+    line-height: 15px;
+}
+
+.card .front .imgsize{
+    padding-top: 50px;
+}
+.card .front .imgsize img{
+    width: 100%;
+    height: 100%;
+}
+
+.card .front h1{
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(3,35,54);
+    background: rgba(48, 62, 142, 0.8);
+    text-align: center;
+}
+
+.card .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3,35,54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px black;
+    z-index: 1;
+}
+
+.card .back .link{
+    border-top: solid 1px #f3f3f3;
+    height: 36px;
+    line-height: 50px;
+}
+
+.card .back .link a{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.card .back .atributos{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+    color: green;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 3px;
+}
+.card .back .atributos .debilidades{
+    color: red;
+}
+
+.card .back .atributos ul{
+    margin-right: 33px;
+}
+
+.card .back p{
+    font-size: 13px;
+}
+
+.card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
