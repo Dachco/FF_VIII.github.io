@@ -22,6 +22,8 @@ header{
     border: 10px solid rgb(92, 162, 227);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 header p{
@@ -30,9 +32,6 @@ header p{
     padding: 20px;
     color: black;
     font-size: 25px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border: 10px solid  rgb(92, 162, 227);
 }
 
 header h1{
